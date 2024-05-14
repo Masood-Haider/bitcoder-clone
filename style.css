@@ -1,0 +1,183 @@
+body{
+    background-color: black;
+    overflow-x: hidden;
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    height: 200px;
+    /* border: 2px solid red; */
+    height: 100px;
+}
+.navigation ul li{
+    margin-right: 80px;
+   list-style-type: none;
+   
+}
+.navigation ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.navigation ul li a:hover{
+    color: rgb(40, 163, 245);
+}
+.container{
+    display: grid;
+    grid-template-columns: auto auto;
+    /* border: 3px solid red; */
+
+}
+.container div p{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 200px;
+    color: white;
+    font-size: 60px;
+}
+.container div p span{
+    color: rgb(40, 163, 245);
+}
+.container2{
+    display: grid;
+    grid-template-columns: 60% auto;
+    color: white;
+    font-size: 30px;
+    float: left;
+    margin-left: 20px;
+    
+}
+.pics{
+    float: left;
+    width: 10px;
+
+}
+.msgcontainer p{
+    font-size: 22px;
+}
+
+.container2 div .msg{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    font-size: 50px;
+
+}
+.container2 div .msg span{
+    color:  rgb(40, 163, 245);
+    text-decoration: underline  rgb(40, 163, 245);
+}
+.container3{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-column-gap: 50px;
+    margin-left: 15px;
+  
+}
+.I{
+    border-radius: 10px;
+    background-color:  rgb(6, 37, 58);
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    text-align: center;
+    justify-content: center;
+    padding: 20px;
+    transition: all 0.5s;
+    height: 400px;
+}
+.I img{
+    width: 100px;
+    position: relative;
+    left: 120px;
+    top: 90px;
+
+ 
+}
+.I:hover{
+    background-color:  rgb(4, 21, 32);   
+}
+.container4{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-gap: 10px;
+}
+.con4{
+    display: flex;
+    flex-direction: column;
+}
+.con4 img{
+    border-radius: 20px;
+    transition: all 0.5s;
+}
+.con4 img:hover{
+    width: 98%;
+}
+.con4 h2{
+    font-size: 30px;
+    color:  rgb(255, 255, 255);
+}
+.con4 p{
+    color: rgb(40, 163, 245); 
+    margin-top: -15px;
+    font-size: 20px ;
+}
+.container5 .msg span{
+    color:  rgb(40, 163, 245);
+    text-decoration: underline ;
+}
+.container5 .msg{
+    color: white;
+    font-size: 50px;
+    margin-left: 10px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.container6{
+    display: grid;
+    grid-template-columns: 65% 35%;
+    color: white;
+    font-size: 25px;
+    margin-top: -25px;
+}
+.container7{
+    color: white;
+    background-color: rgb(8, 28, 41); ;
+    display: flex;
+    border-top-left-radius: 20px;
+    padding: 30px;
+}
+.container7 h2{
+    font-size: 30px;
+}
+.one{
+    width: 30%;
+}
+.container7 p{
+    font-size: 20px;
+}
+.two{
+    width: 35%;
+}
+.two span{
+    border-bottom: 2px solid rgb(40, 163, 245);
+}
+.two p a{
+    text-decoration: none;
+    color: white;
+}
+.two p a:hover{
+color: rgb(40, 163, 245);
+}
+.three h2 span{
+    border-bottom: 2px solid rgb(40, 163, 245);
+}
+.three p a{
+    text-decoration: none;
+    color: white;
+}
+.three p a:hover{
+    color:  rgb(40, 163, 245);
+
+}
